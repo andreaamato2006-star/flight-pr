@@ -25,3 +25,7 @@
 
 @media(max-width:900px){.services{gap:64px}.services-heading{border-top-color:#c9c5be;padding-top:18px}.services-heading-inner{position:static}.services-heading .eyebrow{margin-bottom:36px}.services-heading h2{font-size:clamp(49px,10.5vw,76px);max-width:760px}}
 @media(max-width:520px){.services-heading h2{font-size:clamp(43px,13.5vw,62px)}.services-heading h2 span{white-space:normal}}
+
+/* Keep the final two featured stories paired on the second row. */
+.portfolio-grid.featured .card-3,.portfolio-grid.featured .card-4{grid-column:span 6}
+@media(max-width:900px){.portfolio-grid.featured .card-3,.portfolio-grid.featured .card-4{grid-column:1/-1}}
